@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still cannot access it.",
+    "priority": "High",
+    "status": "Open",
+    "customer": "John Smith",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed During Checkout",
+    "description": "Customer reports that payment fails every time they attempt to complete their purchase using a credit card.",
+    "priority": "High",
+    "status": "Open",
+    "customer": "Emma Wilson",
+    "date": "2024-01-16"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their January invoice from the billing section. The download button is not responding.",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "customer": "Michael Brown",
+    "date": "2024-01-17"
+  },
+  {
+    "id": 1004,
+    "title": "Profile Picture Not Updating",
+    "description": "User uploaded a new profile image but the old image is still being displayed after refreshing the page.",
+    "priority": "Low",
+    "status": "Resolved",
+    "customer": "Sophia Taylor",
+    "date": "2024-01-18"
+  },
+  {
+    "id": 1005,
+    "title": "Email Notifications Not Received",
+    "description": "Customer is not receiving email notifications for new orders or account updates.",
+    "priority": "Medium",
+    "status": "Open",
+    "customer": "David Johnson",
+    "date": "2024-01-19"
+  },
+  {
+    "id": 1006,
+    "title": "Website Loading Very Slowly",
+    "description": "Customer reports extremely slow loading times across multiple pages of the website.",
+    "priority": "High",
+    "status": "In-Progress",
+    "customer": "Olivia Davis",
+    "date": "2024-01-20"
+  },
+  {
+    "id": 1007,
+    "title": "Order Status Not Updating",
+    "description": "The customer's order has already shipped, but the dashboard still shows 'Processing'.",
+    "priority": "Medium",
+    "status": "Open",
+    "customer": "Daniel Miller",
+    "date": "2024-01-21"
+  },
+  {
+    "id": 1008,
+    "title": "Refund Request Pending",
+    "description": "Customer requested a refund five days ago but has not received any updates.",
+    "priority": "High",
+    "status": "Resolved",
+    "customer": "Emily Anderson",
+    "date": "2024-01-22"
+  },
+  {
+    "id": 1009,
+    "title": "Mobile App Keeps Crashing",
+    "description": "The mobile application crashes immediately after the customer logs in on Android devices.",
+    "priority": "High",
+    "status": "Open",
+    "customer": "James Thomas",
+    "date": "2024-01-23"
+  },
+  {
+    "id": 1010,
+    "title": "Cannot Change Password",
+    "description": "Customer receives an unexpected error whenever trying to update their account password.",
+    "priority": "Low",
+    "status": "Resolved",
+    "customer": "Isabella Moore",
+    "date": "2024-01-24"
+  }
+]

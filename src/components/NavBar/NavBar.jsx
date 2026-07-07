@@ -2,7 +2,7 @@ const NavBar = () => {
     return (
         <div>
             <header className="w-full bg-white border-b border-gray-100 font-sans">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto px-4 md:px-0">
                     <div className="flex flex-col sm:flex-row items-center justify-between py-4 sm:h-20 space-y-4 sm:space-y-0">
 
                         {/* Logo / Brand */}
