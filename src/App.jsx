@@ -4,20 +4,22 @@ import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Card from './components/Card/Card'
 
-// Promise-টি বাইরে রাখা হয়েছে যাতে বারবার রি-রেন্ডার না হয়
-const ticketsPromise = fetch("/tickets.json").then((res) => res.json());
+
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const ticketsPromise = Promise.all([
+  fetch("/tickets.json").then((res) => res.json()),
+  delay(1200)
+]).then(([data]) => data);
 
 function App() {
   return (
     <>
       <NavBar />
-      
       <Suspense fallback={
         <div className="max-w-7xl mx-auto px-2 text-center py-10">
           <span className="loading loading-dots loading-xl"></span>
         </div>
       }>
-        {/* Card কম্পোনেন্টে সরাসরি ticketsPromise প্রপ্স পাঠানো হলো */}
         <Card ticketsPromise={ticketsPromise} />
       </Suspense>
       

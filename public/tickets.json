@@ -31,7 +31,7 @@
     "title": "Profile Picture Not Updating",
     "description": "User uploaded a new profile image but the old image is still being displayed after refreshing the page.",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "Open",
     "customer": "Sophia Taylor",
     "date": "2024-01-18"
   },
@@ -67,7 +67,7 @@
     "title": "Refund Request Pending",
     "description": "Customer requested a refund five days ago but has not received any updates.",
     "priority": "High",
-    "status": "Resolved",
+    "status": "In-Progress",
     "customer": "Emily Anderson",
     "date": "2024-01-22"
   },
@@ -85,7 +85,7 @@
     "title": "Cannot Change Password",
     "description": "Customer receives an unexpected error whenever trying to update their account password.",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "In-Progress",
     "customer": "Isabella Moore",
     "date": "2024-01-24"
   }
