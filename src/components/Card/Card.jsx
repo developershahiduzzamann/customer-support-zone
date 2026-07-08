@@ -11,7 +11,7 @@ const Card = ({ ticketsPromise }) => {
         if (!isExist) {
             const newTask = { ...ticket, taskStatus: 'in-progress' };
             setTasks([...tasks, newTask]);
-            toast(`"${ticket.title}"Successfully added to In-Progress!`);
+            toast(`${ticket.title}"Successfully added to In-Progress!`);
         } else {
             toast(`This ticket is already on the task list!`);
         }
@@ -23,7 +23,7 @@ const Card = ({ ticketsPromise }) => {
             task.id === id ? { ...task, taskStatus: 'resolved' } : task
         ));
         if (targetTask) {
-            toast(`"${targetTask.title}" Resolved successfully!`);
+            toast(`${targetTask.title}" Resolved successfully!`);
         }
     };
 
