@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
 import './App.css'
+import { ToastContainer} from 'react-toastify';
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Card from './components/Card/Card'
@@ -22,8 +23,8 @@ function App() {
       }>
         <Card ticketsPromise={ticketsPromise} />
       </Suspense>
-      
       <Footer />
+      <ToastContainer />
     </>
   )
 }
